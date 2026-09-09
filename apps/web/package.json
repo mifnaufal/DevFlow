@@ -10,13 +10,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@devflow/database": "*",
+    "@devflow/api": "*",
     "@devflow/auth": "*",
+    "@devflow/database": "*",
     "@devflow/ui": "*",
-    "@devflow/api": "*"
+    "next": "^16.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
