@@ -1,5 +1,49 @@
-Nothing should be ignored in this case, as only a markdown documentation file was added without any build artifacts, dependencies, or temporary files.node_modules/
-.next/
+```
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Build outputs
 dist/
 build/
+.next/
+.nuxt/
+out/
+
+# TypeScript
+*.tsbuildinfo
+*.tsx.swp
+
+# Environment variables
+.env.local
+.env.*
+!.env.example
+
+# Cache directories
+.cache/
+.vite/
+.turbo/
+
+# Logs
 *.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Prisma
+prisma/migrations/
+prisma/schema.prisma.bak
+
+# Coverage
+coverage/
+.nyc_output/
+```
